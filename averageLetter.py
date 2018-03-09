@@ -10,3 +10,4 @@ def get_average(str):
 
 
 print(get_average("Mallard"))
+print(get_average("Raynor"))
