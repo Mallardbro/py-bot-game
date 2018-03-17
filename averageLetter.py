@@ -23,6 +23,4 @@ def word_cost(_str, vowel, cons):
 
 
 print(get_average("Raynor"))
-print(word_cost("Mallard",150, 25))
-
-
+print(word_cost("Mallard", 150, 25))
