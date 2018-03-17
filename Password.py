@@ -13,7 +13,7 @@ class Password:
         print(f"Encrypted password: {self.encrypted}")
 
     def encrypt(self):
-        # Possible encryption: REVERSE, IGNORE_DIGITS, CEASAR_N
+        # Possible encryption: REVERSE, IGNORE_DIGITS, CAESAR_N
         e = self.encryption
 
         if e == "REVERSE":
@@ -23,7 +23,7 @@ class Password:
             return self.ignore_digits_encryption()
 
         if e[0:6] == "CAESAR":
-            return self.ceasar_encryption()
+            return self.caesar_encryption()
 
         return "No encryption found"
 
@@ -34,7 +34,7 @@ class Password:
                 out += c
         return out
 
-    def ceasar_encryption(self):
+    def caesar_encryption(self):
         out = ""
         shift = int(self.encryption[7:])
         alphabet = "abcdefghijklmnopqrstuvwxyz"
