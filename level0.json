@@ -1,0 +1,38 @@
+{
+  "number": "0",
+  "name": "The Start of it all",
+  "map": {
+    "size": [
+      3,
+      3
+    ],
+    "image_data": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "disk": {
+    "C": [
+      0,
+      3,
+      8
+    ]
+  },
+  "security": [
+    {
+      "password": "p4ss",
+      "encryption": null
+    },
+    {
+      "password": "p123",
+      "encryption": "REVERSE"
+    }
+  ]
+}
